@@ -1,0 +1,23 @@
+$kind: http-request
+name: http://127.0.0.1:8000/bookinglist
+description: ""
+url: http://127.0.0.1:8000/bookinglist
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"customer_name\": \"Ali\",\r
+
+    \    \"customer_phone\": \"8877878868\",\r
+
+    \    \"Start_date\": \"2026-11-07\",\r
+
+    \    \"End_date\": \"2026-11-08\",\r
+
+    \    \"Total_amount\": \"2000.00\",\r
+
+    \    \"vehicle\": 1\r
+
+    }\r\n"
+order: 1000
